@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Project RimFactory - Drones</name>
+	<author>zymex</author>
+	<supportedVersions>
+      <li>1.1</li>
+   </supportedVersions>
+     <packageId>spdskatr.projectrimfactory.drones</packageId>
+	<url>https://ludeon.com/forums/index.php?topic=30813.0</url>
+	<description>
+
+UNSTABLE BUILD
+
+This Mod wont be updated much before core is done.
+you uploaded to offer full experiance
+
+</description>
+ <modDependencies>
+    <li>
+      <packageId>spdskatr.projectrimfactory</packageId>
+      <displayName>Project RimFactory Revived</displayName>
+      <downloadUrl>https://github.com/spdskatr/ProjectRimFactory/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>spdskatr.projectrimfactory</li>
+  </loadAfter>
+</ModMetaData>
