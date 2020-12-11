@@ -24,7 +24,7 @@
     </costList>
     <modExtensions>
       <li Class="ProjectRimFactory.Drones.DefModExtension_DroneStation">
-        <displayDormantDrones>true</displayDormantDrones>
+        <displayDormantDrones>false</displayDormantDrones>
         <workTypes>
           <li>Firefighter</li>
           <li>BasicWorker</li>
@@ -66,7 +66,7 @@
     </costList>
     <modExtensions>
       <li Class="ProjectRimFactory.Drones.DefModExtension_DroneStation">
-        <displayDormantDrones>true</displayDormantDrones>
+        <displayDormantDrones>false</displayDormantDrones>
         <workTypes>
           <li>Construction</li>
           <li>Mining</li>
@@ -106,7 +106,7 @@
     </costList>
     <modExtensions>
       <li Class="ProjectRimFactory.Drones.DefModExtension_DroneStation">
-        <displayDormantDrones>true</displayDormantDrones>
+        <displayDormantDrones>false</displayDormantDrones>
         <workTypes>
           <li>Growing</li>
           <li>PlantCutting</li>

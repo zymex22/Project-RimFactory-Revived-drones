@@ -12,9 +12,10 @@
     </prerequisites>
     <requiredResearchBuilding>AIResearchBench</requiredResearchBuilding>
     <tab>Automation</tab>
-    <researchViewX>5</researchViewX>
-    <researchViewY>1</researchViewY>
+    <researchViewX>11</researchViewX>
+    <researchViewY>0</researchViewY>
   </ResearchProjectDef>
+
   <ResearchProjectDef>
     <defName>PRFConstructionDrones</defName>
     <label>construction drones</label>
@@ -26,9 +27,10 @@
     </prerequisites>
     <requiredResearchBuilding>AIResearchBench</requiredResearchBuilding>
     <tab>Automation</tab>
-    <researchViewX>6</researchViewX>
-    <researchViewY>1</researchViewY>
+    <researchViewX>12</researchViewX>
+    <researchViewY>0</researchViewY>
   </ResearchProjectDef>
+
   <ResearchProjectDef>
     <defName>PRFGrowingDrones</defName>
     <label>growing drones</label>
@@ -40,7 +42,7 @@
     </prerequisites>
     <requiredResearchBuilding>AIResearchBench</requiredResearchBuilding>
     <tab>Automation</tab>
-    <researchViewX>7</researchViewX>
-    <researchViewY>1</researchViewY>
+    <researchViewX>13</researchViewX>
+    <researchViewY>0</researchViewY>
   </ResearchProjectDef>
 </Defs>
