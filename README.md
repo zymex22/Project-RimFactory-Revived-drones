@@ -2,8 +2,17 @@
 This mod will get a overhaul later so far its just like it was in old PRF times.
 But updated with new Cores functions to dronestations, these updates mean we have a lot more flexibility in how dronestations can operate
 
+## Content
+This mods currently adds 3 original Dronestations from old mod.
+- Wild plant collector (PlantCutting, Growing)
+- Caretaker drone station (haul, basic, clean, firefight)
+- Construction drone station (Construction, mining)
 
-
+They have been resized to 2x2 from 3x3.
+and only hold upto 20 from 50 drones.
+These changes have been made to help Performance and base designing.
+You can build more dronestaions if want 50 drones again, but may impact your performance with 50 PAWNS extra instead of 20, keep in mind each drone takes more or less same amount of performance as a vanilla pawn does...
+So if your struggle with performance maybe lower your amount of drones from 300 to less ;-)
 
 
 ## New since old PRF drone system:
