@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fluffy Breakdowns</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="ConstructionDroneStation"]/modExtensions/li[@Class="ProjectRimFactory.Drones.DefModExtension_DroneStation"]/workTypes</xpath>
+			<value>
+				<li>FSFRepair</li>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>
