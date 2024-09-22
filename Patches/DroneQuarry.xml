@@ -4,6 +4,7 @@
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Quarry 1.1</li>
+			<li>Quarry</li>
 		</mods>
 		<match Class="PatchOperationAdd">
 			<xpath>/Defs/ThingDef[defName="ConstructionDroneStation"]/modExtensions/li[@Class="ProjectRimFactory.Drones.DefModExtension_DroneStation"]/workTypes</xpath>
