@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Allow Tool</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "CaretakerDroneStation"]/modExtensions/li[contains(@Class,'ProjectRimFactory.Drones.DefModExtension_DroneStation')]/workTypes</xpath>
+			<value>
+				<li>HaulingUrgent</li>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

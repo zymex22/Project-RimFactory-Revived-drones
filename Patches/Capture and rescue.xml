@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!-- Capture from Capture Them mod  -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Capture Them (Continued)</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "WarDroneStation"]/modExtensions/li[contains(@Class,'ProjectRimFactory.Drones.DefModExtension_DroneStation')]/workTypes</xpath>
+			<value>
+				<li>CaptureThemCapture</li>
+			</value>
+		</match>
+	</Operation>
+
+<!-- Rescue from achtung  -->
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Achtung!</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "WarDroneStation"]/modExtensions/li[contains(@Class,'ProjectRimFactory.Drones.DefModExtension_DroneStation')]/workTypes</xpath>
+			<value>
+				<li>Rescuing</li>
+				<li>DoctorRescue</li>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

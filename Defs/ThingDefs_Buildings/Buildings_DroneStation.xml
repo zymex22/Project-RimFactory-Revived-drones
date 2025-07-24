@@ -124,4 +124,60 @@
       <li>PRFGrowingDrones</li>
     </researchPrerequisites>
   </ThingDef>
+
+  <!--============================= War/fight helping drone ==================================-->
+  <ThingDef ParentName="PRF_DroneStationBase">
+    <defName>WarDroneStation</defName>
+    <label>War helper drone station</label>
+    <description>A station filled with drones ready to help your pawn when panic break out in your colony, they are not able to fight but will help you put out fire, refuel your mortars, and by patches it can rescue and capture downed pawns.</description>
+    <thingClass>ProjectRimFactory.Drones.Building_DroneStationSpecialGraphics</thingClass>
+    <graphicData>
+      <texPath>Drones/WarDroneStation</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <size>(2,2)</size>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentSpacer>5</ComponentSpacer>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <PRF_ElectronicChip_II>10</PRF_ElectronicChip_II>
+    </costList>
+    <modExtensions>
+      <li Class="ProjectRimFactory.Drones.DefModExtension_DroneStation">
+        <displayDormantDrones>false</displayDormantDrones>
+        <workTypes>
+          <li>Firefighter</li>
+          <li>BasicWorker</li>
+          <li>Hauling</li>
+        </workTypes>
+      </li>
+    </modExtensions>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <basePowerConsumption>1000</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>0</fuelConsumptionRate>
+        <fuelCapacity>10</fuelCapacity>
+        <fuelConsumptionPerTickInRain>0</fuelConsumptionPerTickInRain>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <fuelFilter>
+          <thingDefs>
+            <li>PRF_DroneModule</li>
+          </thingDefs>
+        </fuelFilter>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <initialConfigurableTargetFuelLevel>1</initialConfigurableTargetFuelLevel>
+        <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>PRFCaretakerDrones</li>
+    </researchPrerequisites>
+  </ThingDef>
+
 </Defs>
